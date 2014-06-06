@@ -1,8 +1,13 @@
   
-Gunicorn
+
 Quickstart
-gunicorn myproj.myproj.wsgi 
-  
+---------
+
+.. code::  bash
+$ gunicorn myproj.myproj.wsgi 
+
+.. code:: bash
+
   Nginx
   Create link
   $ CURRENT_DIR=`pwd -P` # raw path, no symbolic links
